@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: 'Courgette', cursive;
 }
 
 /*
@@ -105,7 +110,7 @@ a.pure-button-primary {
 .home-menu .pure-menu-heading {
   color: black;
   font-weight: 400;
-  font-size: 120%;
+  font-size: 180%;
 }
 
 .home-menu .pure-menu-selected a {
@@ -114,6 +119,8 @@ a.pure-button-primary {
 
 .home-menu a {
   color: #6fbef3;
+  font-size: 140%;
+  
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
@@ -128,7 +135,7 @@ a.pure-button-primary {
 */
 
 .splash-container {
-  background-image: url("./src/pic2.jpeg");
+  background-image: url("./pic2.jpeg");
   z-index: 1;
   overflow: hidden;
   /* The following styles are required for the "scroll-over" effect */
@@ -155,12 +162,12 @@ a.pure-button-primary {
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-  font-size: 20px;
-  font-weight: bold;
-  color: black;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
   border: 3px solid white;
   padding: 1em 1.6em;
-  font-weight: 100;
+  font-weight: bold;
   border-radius: 5px;
   line-height: 1em;
 }
@@ -168,10 +175,15 @@ a.pure-button-primary {
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
   color: white;
-  letter-spacing: 0.05em;
-  opacity: 0.8;
+  word-spacing: 5px;
+  font-size: 30px;
+  font-weight: bold;
 }
-
+#list{
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
 /*
 * -- CONTENT STYLES --
 * This represents the content area (everything below the blue section)
@@ -189,6 +201,7 @@ a.pure-button-primary {
 /* We want to give the content area some more padding */
 .content {
   padding: 1em 1em 3em;
+  text-align: center;
 }
 
 /* This is the class used for the main content headers (<h2>) */
@@ -199,6 +212,9 @@ a.pure-button-primary {
   margin: 2em 0 1em;
 }
 
+#support{
+  text-align: center;
+}
 /* This is a modifier class used when the content-head is inside a ribbon */
 .content-head-ribbon {
   color: white;
@@ -296,7 +312,7 @@ a.pure-button-primary {
 
 .photo-box img {
   max-width: 100%;
-  height: auto;
+  height: 500px;
   min-height: 250px;
 }
 
